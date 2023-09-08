@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 200;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+img {
+    width: 300px;
+    margin: 40px auto;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 60;
+    width: 200;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color:var(--tg-theme-button-color);
+    background:var(--tg-theme-button-text-color);
+}
+
+button:hover {
+    background: var(--tg-theme-secondary-bg-color);
+}
